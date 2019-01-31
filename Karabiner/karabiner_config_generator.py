@@ -32,7 +32,7 @@ colemak_to_qwerty_map = dict(zip(list("fpgjluy;rstdneiok"),
 colemakdh_to_qwerty_map = dict(zip(list("fpbjluy;rstkneiodvmh"),
                                    list("ertyuiopsdfhjkl;vbnm")))
 
-colemakDHAnsiZ_to_qwerty_map = dict(zip(list("fpbjluy;rstkneioxcdzmh"),
+colemakdhansiz_to_qwerty_map = dict(zip(list("fpbjluy;rstkneioxcdzmh"),
                                    list("ertyuiopsdfhjkl;zxcbnm")))
 
 KeyAction = namedtuple('KeyAction', 'action key_code modifiers')
@@ -171,12 +171,12 @@ def standardize_key(key_code, keyboard):
     ''' switch to qwerty because that's what Karabiner knows '''
     result = key_code.lower()
     kbconverter = {}
-    # if keyboard == "colemak":
-    #     kbconverter = colemak_to_qwerty_map
-    # elif keyboard == "colemakdh":
-    #     kbconverter = colemakdh_to_qwerty_map
-    # elif keyboard == "colemakDHAnsiZ":
-    kbconverter = colemakDHAnsiZ_to_qwerty_map
+    if keyboard == "colemak":
+        kbconverter = colemak_to_qwerty_map
+    elif keyboard == "colemakdh":
+        kbconverter = colemakdh_to_qwerty_map
+    elif keyboard == "colemakdhansiz":
+        kbconverter = colemakdhansiz_to_qwerty_map
     result = kbconverter.get(result, result)
     result = karabiner_map.get(result, result)
     return result
