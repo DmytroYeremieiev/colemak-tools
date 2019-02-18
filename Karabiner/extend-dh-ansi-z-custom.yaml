@@ -5,7 +5,7 @@ version: 1.0
 author: mattmc3
 homepage: https://github.com/mattmc3/colemak-tools/tree/master/Karabiner
 extend-modifier: caps_lock
-extend-alone-action: escape
+# extend-alone-action: escape
 keyboard: colemakdhansiz
 mouse-move-distance: 1500
 mouse-scroll-distance: 50
