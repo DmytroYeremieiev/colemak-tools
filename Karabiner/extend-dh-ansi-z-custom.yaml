@@ -59,9 +59,9 @@ mappings:
     # - [return, CMD-SHIFT-3]
     # - ["'", menu]
     - [a, OPT]
-    - [r, CTRL]
-    - [s, SHIFT]
-    - [t, CMD]
+    - [r, SHIFT]
+    - [s, CMD]
+    - [t, CTRL]
     - [delete, return]
     - [esc, caps_lock]
     # navigation

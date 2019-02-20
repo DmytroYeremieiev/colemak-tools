@@ -165,7 +165,7 @@
           },
           "to": [
             {
-              "key_code": "left_control"
+              "key_code": "left_shift"
             }
           ]
         },
@@ -188,7 +188,7 @@
           },
           "to": [
             {
-              "key_code": "left_shift"
+              "key_code": "left_command"
             }
           ]
         },
@@ -211,7 +211,7 @@
           },
           "to": [
             {
-              "key_code": "left_command"
+              "key_code": "left_control"
             }
           ]
         },
