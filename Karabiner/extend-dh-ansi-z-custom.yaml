@@ -53,7 +53,7 @@ mappings:
     - [q, esc]
     # - ['[', esc]
     # - [']', ins]
-    - [space, return]
+    # - [space, return]
     - [;, delete_forward]
     - [o, delete]
     # - [return, CMD-SHIFT-3]
@@ -62,7 +62,7 @@ mappings:
     - [r, SHIFT]
     - [s, CMD]
     - [t, CTRL]
-    - [delete, return]
+    # - [delete, return]
     - [esc, caps_lock]
     # navigation
     - [j, pgup]
