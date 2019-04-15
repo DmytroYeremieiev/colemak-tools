@@ -28,7 +28,7 @@ From a bash Terminal:
 
 ```bash
 mkdir -p ~/.config/karabiner/assets/complex_modifications
-python3 ./karabiner_config_generator.py extend.yaml > ~/.config/karabiner/assets/complex_modifications/extend.json
+python3 ./Karabiner/karabiner_config_generator.py ./Karabiner/extend-dh-ansi-z-custom.yaml > ~/.config/karabiner/assets/complex_modifications/extend.json
 ```
 
 ## How to add Extend
