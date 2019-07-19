@@ -25,10 +25,15 @@ curl -fsSL "https://raw.githubusercontent.com/mattmc3/colemak-tools/master/Karab
 ## How to run script
 
 From a bash Terminal:
-
+for `colemak dh ansi-z mode`
 ```bash
 mkdir -p ~/.config/karabiner/assets/complex_modifications
 python3 ./Karabiner/karabiner_config_generator.py ./Karabiner/extend-dh-ansi-z-custom.yaml > ~/.config/karabiner/assets/complex_modifications/extend.json
+```
+or for `qwerty`
+```bash
+mkdir -p ~/.config/karabiner/assets/complex_modifications
+python3 ./Karabiner/karabiner_config_generator.py ./Karabiner/extend-qwerty.yaml > ~/.config/karabiner/assets/complex_modifications/extend-qwerty.json
 ```
 
 ## How to add Extend
