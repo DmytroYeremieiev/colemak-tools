@@ -224,7 +224,7 @@ def main():
         raise ValueError("Missing yaml config for extend")
 
     extend_config_file = Path(sys.argv[1])
-    extend_config = yaml.load(extend_config_file.read_text())
+    extend_config = yaml.load(extend_config_file.read_text(), Loader=yaml.FullLoader)
     builder = ExtendBuilder(extend_config)
     print(builder.json())
 

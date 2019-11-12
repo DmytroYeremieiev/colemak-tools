@@ -50,42 +50,54 @@ mappings:
     # - ['-', f11]
     # - ['=', f12]
     # system
-    - [q, esc]
+    # - [q, esc]
     # - ['[', esc]
     # - [']', ins]
     # - [space, return]
-    - [p, delete_forward]
-    - [;, delete]
+
     # - [return, CMD-SHIFT-3]
     # - ["'", menu]
-    - [a, OPT]
-    - [d, SHIFT]
-    - [s, CMD]
+    # - [a, OPT]
+    # - [d, SHIFT]
+    # - [s, CMD]
     # - [t, CTRL]
     # - [delete, return]
-    - [esc, caps_lock]
+    # - [esc, caps_lock]
     # navigation
-    - [y, pgup]
-    - [h, pgdn]
+    # - [y, pgup]
+    # - [h, pgdn]
     # - [l, home]
     # - [y, end]
+    - [p, delete_forward]
+    - [;, delete]
+
     - [i, up]
     - [j, left]
     - [k, down]
     - [l, right]
+
+    - ['1', 'SHIFT-hyphen'] # _
+    - ['q', 'equal_sign'] # = 
+
+    - ['2', 'SHIFT-equal_sign'] # +
+    - ['w', 'hyphen'] # - 
+
+    - ['3', 'SHIFT-0'] # )
+    - ['e', 'SHIFT-9'] # (
+
     # - [q, CMD-z]
     # - [x, CMD-z]
     # - [c, CMD-x]
     # - [d, CMD-c]
     # - [v, CMD-v]
     # - [f, 'CMD-[']  # browser back
-    # - [p, 'CMD-]']  # browser forward
+    # - [p, 'CMD-]']  # browser forward 
     # symbols remapping
     # - [u, "-"]
     # - [o, "="]
     # - ["'", "SHIFT-'"]
     # - ["[", "SHIFT-["]
-    # - ["]", "SHIFT-]"]
+    # - ["]", "SHIFT-]"] 
 
     # mouse
     # - [w, mouse_scroll_up]
