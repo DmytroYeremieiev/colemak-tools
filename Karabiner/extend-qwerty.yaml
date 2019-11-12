@@ -88,6 +88,9 @@ mappings:
     - ['u', 'CTRL-u'] # for shortcuts in VS
     - ['o', 'CTRL-o'] # for shortcuts in VS
 
+    - [',', 'CTRL-,'] # for shortcuts in VS
+    - ['.', 'CTRL-.'] # for shortcuts in VS
+
     # - [q, CMD-z]
     # - [x, CMD-z]
     # - [c, CMD-x]
