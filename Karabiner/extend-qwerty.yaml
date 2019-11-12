@@ -85,6 +85,9 @@ mappings:
     - ['3', 'SHIFT-0'] # )
     - ['e', 'SHIFT-9'] # (
 
+    - ['u', 'CTRL-u'] # for shortcuts in VS
+    - ['o', 'CTRL-o'] # for shortcuts in VS
+
     # - [q, CMD-z]
     # - [x, CMD-z]
     # - [c, CMD-x]
